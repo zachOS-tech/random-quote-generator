@@ -1,0 +1,61 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  font-family: "Architects Daughter", cursive;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 40px;
+  width: 80%;
+  height: 40%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.quote__text {
+  color: black;
+  margin: 0;
+  font-size: clamp(1.3rem, 2vw, 2rem);
+  text-align: center;
+  font-family: "Architects Daughter", cursive;
+}
+
+.quote__author {
+  color: gray;
+  text-align: center;
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-family: "Caveat", cursive;
+}
+
+button {
+  width: 40%;
+  margin: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  color: gray;
+  border: none;
+}
+
+button.active {
+  color: white;
+  background-color: darkslateblue;
+}
+
+button.active:hover {
+  background-color: rgb(96, 82, 185);
+}
